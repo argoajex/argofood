@@ -1,8 +1,9 @@
-from flask import Flask
 import logging
+
+from flask import Flask
 
 app = Flask(__name__)
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
-from . import views
+from application import views
