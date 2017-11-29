@@ -57,3 +57,7 @@ def create_cook():
             return 'name and zip is required'
     else:
         return 'invalid data', 400
+
+@app.route('<path:cook_id>/food', methods=['POST'])
+def adding_food(cook_id):
+    data = request.get_json()
