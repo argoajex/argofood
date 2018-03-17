@@ -18,3 +18,6 @@ If you are a Windows user, the following command is for you:
 
     $ venv\Scripts\activate
 
+install dependency package:
+    
+    $ pip install -r requirement.txt

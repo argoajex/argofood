@@ -1,2 +1,3 @@
 Flask
 sqlalchemy
+zipcode == 2.0.0
